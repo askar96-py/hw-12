@@ -1,0 +1,44 @@
+main {
+    padding-top: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.form-active{
+    max-width: 200px;
+    transition: all ease-in-out 500ms;
+}
+
+.form-logo {
+    display: none;
+    height: 50px;
+    width: 100px;
+}
+
+.icon-social-link {
+    max-width: 25px;
+}
+
+.valid {
+    display: none;
+    color: red;
+}
+
+.logo {
+    display: none;
+    height: 50px;
+    width: 100px;
+}
+
+.profile {
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.links {
+    display: none;
+}
